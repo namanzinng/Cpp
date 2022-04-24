@@ -2,11 +2,11 @@
 using namespace std;
 int b_search(int arr[], int n, int key)
 {
-    int s = 0;
-    int e = n;
-    while(s<=e)
+    int start = 0;
+    int end = n;
+    while(start<=end)
     {
-        int mid = (s+e)/2;
+        int mid = (start+end)/2;
 
         if(arr[mid]==key)
         {
@@ -15,12 +15,12 @@ int b_search(int arr[], int n, int key)
 
         else if(arr[mid]>key)
         {
-            e = mid - 1;
+            end = mid - 1;
         }
 
         else
         {
-             s = mid + 1;
+             start = mid + 1;
         }
     }
 
