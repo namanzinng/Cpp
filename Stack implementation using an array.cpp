@@ -11,7 +11,7 @@ int main()
     cout<<"\n Enter the size of STACK[MAX=100]:";
     cin>>n;
     cout<<"\n\t STACK OPERATIONS USING ARRAY";
- 
+    cout<<"\n\t--------------------------------";
     cout<<"\n\t 1.PUSH\n\t 2.POP\n\t 3.DISPLAY\n\t 4.EXIT";
     do
     {
